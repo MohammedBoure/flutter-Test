@@ -1,0 +1,70 @@
+# Dart / Flutter
+**/.dart_tool/
+**/.dart_server_home/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub_cache/
+**/.pub/
+**/build/
+**/coverage/
+**/doc/api/
+
+# Keep lock files for Flutter apps.
+!**/pubspec.lock
+
+# Flutter generated platform artifacts
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/linux/flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# Android / Gradle local files
+**/android/.gradle/
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/.gradle/
+
+# Build outputs copied outside build directories
+*.apk
+*.aab
+*.ipa
+*.app
+*.msix
+*.symbols
+*.map.json
+
+# IDE / editor files
+**/.idea/
+**/*.iml
+**/*.ipr
+**/*.iws
+**/.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.class
+.history/
+.build/
+.buildlog/
+migrate_working_dir/
+
+# Local environment and secrets
+.env
+.env.*
+*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
